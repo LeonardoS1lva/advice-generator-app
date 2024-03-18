@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+section {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: min-content;
+    gap: 20px;
+}
+
+section h1 {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+section h2 {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    width: 100%;
+}
+
+section button {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    width: max-content;
+    padding: 1rem;
+    border: none;
+    align-items: center;
+    margin-bottom: -60px;
+}
+
+section button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
